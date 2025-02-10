@@ -1,0 +1,8 @@
+.Dhanu{
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    column-gap: 10px;
+    row-gap: 15px;
+    background-color: aqua;
+    padding: 20px;
+}

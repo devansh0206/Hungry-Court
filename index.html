@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to grid</title>
+    
+    <style>
+        .Dhanu{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            column-gap: 15px;
+            row-gap: 15px;
+            background-color: brown;
+            padding: 20px;
+        }
+        .Dhanu>div{
+            width: 300px;
+            height: 300px;
+            column-gap: 15px;
+            background-color: antiquewhite;
+            padding: 20px;
+        }
+        .Dhanu img{
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+      cursor: pointer;
+      transition: 2 ease;
+        }
+        .Dha{
+      background-color: chartreuse;
+      width: 50px;
+      height: 50px;
+      margin: 50px 25px ;
+      transition:  5s;
+      transition-timing-function: linear;
+      
+    }
+    .Dha:hover{ 
+       background-color: orange;
+      width: 400px;
+      height: 500px;
+      color: aliceblue;
+font-size: 90px;
+font-family: cursive;
+padding: 300px;
+
+    }
+    .Dha img{
+      object-fit: cover;
+      cursor: pointer;
+      transition: 2.08s ease;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+        
+    </style>
+</head>
+<body>
+    <h1><marquee><em>Foddie Corner</em></marquee></h1>
+    <section class="Dhanu">
+        <div class="Dha">
+            <img src="burger.jpg">
+            <h2>Burger</h2>
+            <button>Rs:159</button>
+            </div>
+            <div class="Dha">
+                <img src="butter.webp">
+                <h2>Butter</h2>
+                <button>Rs:159</button>
+                </div>
+        <div class="Dha">
+            <img src="pizza.jpg">
+            <h2>Pizza</h2>
+            <button>Rs:159</button>
+            </div>
+        <div class="Dha">
+            <img src="manchurian.jpg">
+            <h2>Manchurian</h2>
+            <button>Rs:159</button>
+            </div>
+        <div class="Dha">
+            <img src="sandwich.jpg">
+            <h2>Sandwich</h2>
+            <button>Rs:159</button>
+            </div>
+        <div class="Dha">
+            <img src="panipuri.jpg">
+            <h2>PaniPuri</h2>
+            <button>Rs:159</button>
+            </div>
+        <div class="Dha">
+            <img src="fries.jpg">
+            <h2>Fries</h2>
+            <button>Rs:159</button>
+            </div>
+        <div class="Dha">
+            <img src="pasta.jpg">
+            <h2>Pasta</h2>
+            <button>Rs:159</button>
+            </div>
+            <div class="Dha">
+                <img src="soda.webp">
+                <h2>Coco Cola</h2>
+                <button>Rs:159</button>
+                </div>
+        
+
+    </section>
+
+    
+</body>
+</html>
